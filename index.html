@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mergaite</title>
     <style>
+        body {
+            background-color: #f8f8f8;
+        }
        main {
            display: inline-block;
            width: 800px;
@@ -17,23 +20,54 @@
            width: 100%;
            margin-bottom: 40px; 
        }
+           header>img {
+           display: inline-block;
+           height: 50px;
+           float: left;
+           }
+
+           nav {
+            display: inline-block;
+            float: right;
+           }
+
+           a {
+               display: inline-block;
+           }
+            
+           
 
        section {
-        display: inline-block;
+           display: inline-block;
            width: 100%;
        }
+
+       div {
+           display: inline-block;
+           float: left;
+           width: 35%;
+           margin-left: 5%;
+       }
+
+       section>img {
+           display: inline-block;
+           width: 45%;
+           float: left;
+           margin-left: 10%;
+           }
+           
     </style>
 </head>
 <body>
     <main>
        <header>
-           <img src="logo.png" alt="Logo">
+           <img src="./logo.png" alt="Logo">
            <nav>
-            <a href="home"></a>
-            <a href="Tracks"></a>
-            <a href="Library"></a>
-            <a href="Community"></a>
-            <a href="Sign in"></a>
+            <a href="#">home</a>
+            <a href="#">Tracks</a>
+            <a href="#">Library</a>
+            <a href="#">Community</a>
+            <a href="#">Sign in</a>
            </nav>
        </header>
        <section>
@@ -41,7 +75,7 @@
                <h1>404</h1>
                <p>The link is broken or the page has been moved.</p>
            </div>
-           <img src="#" alt="Liudna mergaite">
+           <img src="./mergaite.png" alt="Liudna mergaite">
        </section>
     </main>
 </body>
